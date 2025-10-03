@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            display: flex;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar {
+            width: 25%;
+            text-align: center;
+        }
+
+        .sidebar img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .content {
+            width: 75%;
+            padding-left: 20px;
+        }
+
+        h1,
+        h2 {
+            margin: 0 0 10px;
+            color: #333;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .skills div,
+        .education div {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <img src="./assets/profile.jpg" alt="Profile Photo">
+            <h2>Shubhadeep Mandal</h2>
+        </aside>
+
+        <main class="content">
+            <section class="section">
+                <h1>About Me</h1>
+                <p>Hi, this is my attempt at a basic profile page.</p>
+            </section>
+
+            <section class="section education">
+                <h2>Education</h2>
+                <div>MTech in Computer Science – IIIT Hyderabad</div>
+                <div>BTech in Computer Science – IIIT Ranchi</div>
+            </section>
+
+            <section class="section skills">
+                <h2>Skills</h2>
+                <div>C / C++</div>
+                <div>TypeScript / JavaScript</div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
